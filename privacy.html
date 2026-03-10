@@ -5,9 +5,85 @@
     <meta name="viewport" content="width=device-width" />
     <title>Privacy Policy</title>
     <style>
+      :root {
+        --brand: #0d9488;
+        --bg: #f4fbf9;
+        --card: #ffffff;
+        --muted: #5f6f69;
+        --border: #d8e8e2;
+        --text: #10231f;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
       body {
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        padding: 1em;
+        margin: 0;
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+        background: radial-gradient(
+          circle at 10% 10%,
+          #e6fffb 0%,
+          var(--bg) 45%,
+          #eef8f6 100%
+        );
+        color: var(--text);
+        line-height: 1.55;
+      }
+
+      .wrap {
+        max-width: 840px;
+        margin: 0 auto;
+        padding: 28px 16px 36px;
+      }
+
+      .hero {
+        background: linear-gradient(145deg, #ffffff 0%, #f8fffd 100%);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        padding: 18px;
+        box-shadow: 0 8px 28px rgba(13, 148, 136, 0.08);
+        margin-bottom: 14px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 1.8rem;
+      }
+      h2 {
+        margin: 0 0 8px;
+        font-size: 1.1rem;
+      }
+
+      .tag {
+        margin-top: 6px;
+        color: var(--muted);
+        font-weight: 600;
+      }
+
+      .grid {
+        display: grid;
+        gap: 12px;
+      }
+
+      .card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 14px;
+      }
+
+      ul {
+        margin: 8px 0 0 18px;
+      }
+      a {
+        color: #0b7f75;
+      }
+      .small {
+        color: var(--muted);
+        font-size: 0.92rem;
       }
     </style>
   </head>
