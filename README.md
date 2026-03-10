@@ -18,8 +18,8 @@ Use a separate public repository, for example `vocaflow-legal`.
 
 Your URLs will be:
 
-- Support: `https://<github-username>.github.io/vocaflow-legal/`
-- Privacy: `https://<github-username>.github.io/vocaflow-legal/privacy.html`
+- Support: `https://flutter-lab.github.io/vocaflow-legal/`
+- Privacy: `https://flutter-lab.github.io/vocaflow-legal/privacy.html`
 
 ## App Store metadata update
 
